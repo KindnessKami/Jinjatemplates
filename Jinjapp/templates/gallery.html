@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+	Images
+{% endblock %}
+{% block header %}
+	Welcome to our gallery
+{% endblock %}
+{% block content %}
+    {% load static %}
+    <img src="{% static 'images/img1.jpeg' %}" alt="" height="300" width="180">
+    <img src="{% static 'images/img2.jpeg' %}" alt="" height="300" width="180">
+    <img src="{% static 'images/img3.jpeg' %}" alt="" height="300" width="180">
+    <img src="{% static 'images/img4.jpeg' %}" alt="" height="300" width="180">
+    <img src="{% static 'images/img5.jpeg' %}" alt="" height="300" width="180">
+{% endblock %}
